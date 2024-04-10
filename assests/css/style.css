@@ -1,9 +1,9 @@
 :root{
-    --bg-color: beige;
-    --main-head: rgb(122, 100, 100);
-    --work-head: rgb(116, 161, 120);
-    --font-family: 'Courier New', Courier, monospace;
-    --font-color:black;
+    --bg-color: rgb(7, 7, 7);
+    --main-head: rgb(56 55 61);
+    --work-head: rgb(237, 244, 237);
+    --font-family:"san-serif";
+    --font-color:rgb(205 36 41);
     
 }
 
@@ -22,47 +22,88 @@ body {
 }
 
 main {
-    display: inline-block;
+    display: left;
     flex-wrap:wrap;
-    margin-top: 2%;
+    
 }
 
 .main-header {
-    padding: 10px;
+  display: flex;
+  flex-wrap:wrap;
+  margin-bottom: 500px;
+}
+
+.headline{
+  margin:0;
+  padding: 1px;
+
+}
+
+.headline img{
+border-radius: 50%;
+height:800px;
+margin-top: 2%;
+}
+
+.headline h1 { 
+  margin-bottom: 0%;
+    justify-content: right;
+    font-size: 140px;
+    font-family: "Brush Script MT";
+    color: var(--main-head);
+  
+}
+
+.headline ul{
     font-family: var(--font-family);
-    background-color: var(--main-head);
-    color: var(--work-head);
-}
-
-.main-header h1 {
-    display: inline-block;
-    font-size: 40px;
-}
-
-.main-header ul{
-    padding-top: 25px;
-    margin-right: 20px;
-    float: right;
-    font-family: var(--font-family);
-    font-size: 20px;
-}
-
-.main-header ul {
     list-style-type: none;
+    
 }
 
-.main-header ul li {
-    display: inline-block;
-    margin-left: 25px;
+.headline ul li {
+  text-align: center;
+  padding:25px;
+    font-size: 50px;
+    color:var(--main-head);
+    text-decoration: none;
+    
 }
 
 a {
     color: var(--work-head);
-    text-decoration:underline;
+    
+}
+
+a:hover{
+  text-shadow: 2px 2px 1px var(--font-color);
+
 }
 
 .about{
     text-align: center;
+    color: var(--work-head);
+    margin-bottom:500px;
+    padding: 200px;
+  
+}
+
+.about h2{
+color: var(--main-head);
+font-size: 50px;
+text-align: center;
+
+}
+
+.about ul{
+  font-family: var(--font-family);
+  list-style-type: none;
+  padding:250 px;
+
+}
+
+.about ul li{
+  display: inline-flex;
+  padding: 20px;
 }
 
 .contact-links{
