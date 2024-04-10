@@ -12,13 +12,11 @@
 }
 
 body {
-    background-color: var(--bg-color);
+  background-image: url("../images/bgpicture.jpg");
+  background-repeat: repeat;
+  background-size: contain;
+  background-color: var(--bg-color);
     font-family: var(--font-family);
-    margin: 0;
-    display: inline-block;
-    flex-direction: column;
-    min-height: 100vh;
-    justify-content:center;
 }
 
 main {
@@ -83,16 +81,19 @@ a:hover{
     text-align: center;
     color: var(--work-head);
     margin-bottom:500px;
-    padding: 200px;
+    padding: 150px;
   
 }
 
 .about h2{
-color: var(--main-head);
-font-size: 50px;
-text-align: center;
+  color: var(--work-head);
+  font-size: 80px;
+  text-align: center;
+  text-decoration: underline;
+  text-shadow: 2px 2px 1px var(--font-color);
 
 }
+
 
 .about ul{
   font-family: var(--font-family);
@@ -106,40 +107,20 @@ text-align: center;
   padding: 20px;
 }
 
-.contact-links{
-    border-style:groove;
-    border-width: 10px;
-    border-color: var(--main-head);
-    width:100%;
-
-}
-
-.contact-links h2{
-    text-align: center;
-  }
-
-
-  .contact-links img {
-    display: flex;
-    justify-content: center;
-    height: 60px;
-    width: 60px;
-  }
-
-  .contact-links li{
-    list-style: none;
-    margin: 5px;
-  }
-
-  .contact-links ul{
-    display:flex;
-    justify-content: center;
-    
-
-  }
-
 .work{
+  text-align: center;
+  color: var(--work-head);
+  padding-top: 0px;
+
+  }
+
+  .work h2{
+    color: var(--work-head);
+    font-size: 80px;
     text-align: center;
+    text-decoration: underline;
+    text-shadow: 2px 2px 1px var(--font-color);
+
   }
 
 .project-list{
@@ -153,25 +134,79 @@ text-align: center;
     width: 45%;
     margin:5px;
     padding: 10px;
-    border-style: dashed;
-    border-width: 5px;
+    border-style:groove;
+    border-width: 15px;
     border-color: var(--main-head);
   }
   
   .projects header {
     text-align: center;
     padding: 20px;
-    background:var(--work-head);
-    color: var(--font-color);
+    background:var(--main-head);
+    color: var(--work-hea);
+    font-size: 40px;
 
   }
   
   .projects img {
     display:inline-flex
     margin-top: 2%;
-    height: 60%;
+    height: 80%;
     width: 100%;
 
+  }
+
+  .projects list ul{
+    font-family: var(--font-family);
+    list-style-type: none;
+    padding:250 px;
+  
+  }
+  
+  .project-list ul li{
+    display: inline-flex;
+    padding: 20px;
+    padding-bottom: 300px;
+  }
+
+  .contact h2{
+    color: var(--work-head);
+    font-size: 80px;
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 2px 2px 1px var(--font-color);
+    }
+
+  .contact-links{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+
+ #git img {
+    border-radius: 50%;
+    justify-content: center;
+    height: 160px;
+  }
+
+#mail img{
+  border-radius: 50%;
+  justify-content: center;
+    height: 160px;
+}
+
+  .contact-list ul{
+    display:flex;
+    justify-content: center;
+    font-family: var(--font-family);
+    list-style-type: none;
+    margin-bottom: 125px;
+  }
+
+  .contact-list ul li{
+    display: inline-flex;
+    padding: 20px;
   }
 
 
