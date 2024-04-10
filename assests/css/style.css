@@ -12,9 +12,7 @@
 }
 
 body {
-  background-image: url("../images/bgpicture.jpg");
-  background-repeat: repeat;
-  background-size: contain;
+ 
   background-color: var(--bg-color);
     font-family: var(--font-family);
 }
@@ -28,7 +26,7 @@ main {
 .main-header {
   display: flex;
   flex-wrap:wrap;
-  margin-bottom: 500px;
+  margin-bottom: 300px;
 }
 
 .headline{
@@ -80,7 +78,7 @@ a:hover{
 .about{
     text-align: center;
     color: var(--work-head);
-    margin-bottom:500px;
+    margin-bottom:300px;
     padding: 150px;
   
 }
@@ -133,7 +131,7 @@ a:hover{
 .projects {
     width: 45%;
     margin:5px;
-    padding: 10px;
+    padding: 0px;
     border-style:groove;
     border-width: 15px;
     border-color: var(--main-head);
@@ -141,22 +139,23 @@ a:hover{
   
   .projects header {
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     background:var(--main-head);
-    color: var(--work-hea);
+    color: var(--work-head);
     font-size: 40px;
 
   }
   
   .projects img {
-    display:inline-flex
-    margin-top: 2%;
+    display:inline-flex;
+    margin: 2% 0% 5% 0%;
+    padding: 20px;
     height: 80%;
     width: 100%;
 
   }
 
-  .projects list ul{
+  .projects-list ul{
     font-family: var(--font-family);
     list-style-type: none;
     padding:250 px;
@@ -183,7 +182,17 @@ a:hover{
     justify-content: center;
 }
 
+.contact-links ul{
+  font-family: var(--font-family);
+  list-style-type: none;
 
+}
+
+.contact-links ul li{
+  display: inline-flex;
+}
+
+  
  #git img {
     border-radius: 50%;
     justify-content: center;
