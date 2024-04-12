@@ -18,8 +18,8 @@ This page was created using HTML and CSS. It was upload to github and deployed.
 Use the navigation links to explore my portfolio and find out more about me and my work.
 
 ## Screenshot of Portfolio Page
-![Alt text](/images/portfolioscreenshot.png)
-![Alt text](assets/images/portfolioscreenshot2.png)
-![Alt text](assets/images/portfolioscreenshot3.png)
-![Alt text](assets/images/portfolioscreenshot4.png)
-![Alt text](assets/images/portfolioscreenshot5.png)
+![Alt text](assests/images/portfolioscreenshot.png)
+![Alt text](assests/images/portfolioscreenshot2.png)
+![Alt text](assests/images/portfolioscreenshot3.png)
+![Alt text](assests/images/portfolioscreenshot4.png)
+![Alt text](assests/images/portfolioscreenshot5.png)
