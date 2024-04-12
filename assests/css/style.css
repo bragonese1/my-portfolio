@@ -1,3 +1,4 @@
+/*creating variables */
 :root{
     --bg-color: rgb(7, 7, 7);
     --main-head: rgb(56 55 61);
@@ -7,10 +8,12 @@
     
 }
 
+
 *{
     box-sizing:border-box;
 }
 
+/*use of vars to create background color and font style*/
 body {
  
   background-color: var(--bg-color);
@@ -18,7 +21,7 @@ body {
 }
 
 
-
+/*creating banner with avatar and nav links*/
 .main-header {
   display: flex;
   flex-wrap:wrap;
@@ -68,6 +71,7 @@ a {
     
 }
 
+/*hover effect*/
 a:hover{
   text-shadow: 2px 2px 1px var(--font-color);
 
@@ -97,14 +101,14 @@ main {
 }
 
 
-.about ul{
+.about-list ul{
   font-family: var(--font-family);
   list-style-type: none;
   padding:250 px;
 
 }
 
-.about ul li{
+.about-list ul li{
   display: inline-flex;
   padding: 20px;
 }
@@ -206,7 +210,7 @@ height: 300px;
 }
 
   
- #git img {
+#git img {
     border-radius: 50%;
     justify-content: center;
     height: 160px;
@@ -236,7 +240,9 @@ footer{
   text-align: center;
 }
 
-@media screen and (max-width:800px){
+/*used to create better spacing when screen size is adjusted*/
+
+@media screen and (max-width:850px){
   .project-list{
 display: flex;
 flex-direction: column;
@@ -248,12 +254,15 @@ width:100%;
 }
 
 .banner{
+  display: flex;
   flex-direction:column;
+  width:100%;
+  
 }
+
 .banner img{
 
-width:350px;
-height: 350px;  
+width:100%; 
 }
 
 .banner h1{
