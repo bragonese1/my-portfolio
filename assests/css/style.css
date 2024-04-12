@@ -17,17 +17,12 @@ body {
     font-family: var(--font-family);
 }
 
-main {
-  display:wrap;
-    flex-wrap:wrap;
-    
-}
+
 
 .main-header {
   display: flex;
   flex-wrap:wrap;
   margin: 0 50px 300px 50px;
-  justify-content: space-between;
 }
 
 
@@ -66,6 +61,8 @@ width:50%;
     
 }
 
+
+
 a {
     color: var(--work-head);
     
@@ -74,6 +71,12 @@ a {
 a:hover{
   text-shadow: 2px 2px 1px var(--font-color);
 
+}
+
+main {
+  display:wrap;
+    flex-wrap:wrap;
+    
 }
 
 .about{
@@ -228,6 +231,11 @@ height: 300px;
     padding: 20px;
   }
 
+footer{
+  color:red;
+  text-align: center;
+}
+
 @media screen and (max-width:800px){
   .project-list{
 display: flex;
@@ -239,6 +247,9 @@ width: 100%;
 width:100%;
 }
 
+.banner{
+  flex-direction:column;
+}
 .banner img{
 
 width:350px;
@@ -252,4 +263,5 @@ height: 350px;
 .headline ul li {
   font-size: 15px;
 
+}
 }

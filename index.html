@@ -7,16 +7,22 @@
         <link rel="stylesheet" type="text/css" href="./assests/css/style.css" /> 
     </head>
 
+    <!--body of the webpage-->
     <body>
-        <header>
-            <nav class="main-header">
 
-            <div class="banner">
+        <!--Header section of the webpage-->
+     <header>
+        <!--Use to create flex and wrap and also space on bottom of header to the next section-->
+         <nav class="main-header">
+        <!--id=home to navigate page back home. Banner class to incorporate avatar, name, and nav links together-->
+            <div id="home" class="banner">
                 <img src="./assests/images/ragonesecodepic.JPEG">
 
+             <!--placing div in in order to push name and nav links to the left side-->   
                 <div>
                     <h1>Bradley Ragonese</h1>
-                    <section id="home" class="headline">
+             <!--Headline class in order to style and seperate nav links-->       
+                    <section class="headline">
             
 
                         <ul>
@@ -25,25 +31,26 @@
                                 <li><a href="#work">Work</a></li>
                                 <li><a href="#contact">Contact</a></li>
                         </ul>
-                        
+
                     </section>
 
                 </div>
 
             </div>
-            
-            
+        
+         </nav>
 
-             </nav>
-        </header>
+     </header>
 
+     <!--main where content of webpage is contained-->
         <main>
 
-
+<!--id=about to navigate screen to the about me section and the class to style the about me section-->
            <section id="about" class="about">
                 <h2>About Me</h2>
-                
-                <p><strong>
+<!--strong used to bold paragraph-->                
+                <p>
+                <strong>
                     Hello World, welcome to my portfolio. I am an aspiring developer motivated to break into the tech career field. 
                     I have a background as a data analysis.I have always had a knack with technology and have been very interested 
                     in making the career switch for quite some time. I finally decided to puruse my passion for technology and 
@@ -51,47 +58,53 @@
                     a way to contact me if you interested in having someone like myself, join your team. Thanks!
                 </strong>
                 </p>
+<!--nav links placed in order to be able to move around the screen more easy-->
                 <ul>
                     <li><a href="#home">Home</a></li>
                     <li><a href="#about">About Me</a></li>
                     <li><a href="#work">Work</a></li>
                     <li><a href="#contact">Contact</a></li>
-            </ul>
+                 </ul>
+
             </section>
 
-
+<!--id-work to navigate to work section of the webpage-->
             <section id="work" class ="work">
                 <h2>My Work</h2>
                 </section>
-
+<!--div used to create project list to create parent section for flex/wrap-->
               <div class="project-list">  
+<!--feature class created to be able to make my first project bigger than the rest-->
                 <section class="projects feature">
                     <header><strong>Horiseon Project</strong></header>
-                    <a href="https://bragonese1.github.io/horiseon-seo/"><img src="./assests/images/Horiseon.png" alt="horiseon homepage" ></a>
-                    
+                        <a href="https://bragonese1.github.io/horiseon-seo/">
+                            <img src="./assests/images/Horiseon.png" alt="horiseon homepage" >
+                        </a>               
                 </section>
-                
+ <!--projects class created in order to space and wrap other work that is shown-->               
                 <section class="projects">
                     <header><strong>Prework Study Guide</strong></header>
-                    <a href="https://bragonese1.github.io/prework-study-guide/">
-                        <div class="project-image-container"><img src="./assests/images/prework.png" alt="prework study guide" ></div></a>
-                    
+                        <a href="https://bragonese1.github.io/prework-study-guide/">
+                            <div class="project-image-container">
+                                <img src="./assests/images/prework.png" alt="prework study guide" >
+                            </div>
+                        </a>  
                 </section>
-
+<!--placeholder for future project-->
                 <section class="projects">
-                    <header><strong>Navagation Station</strong></header>
-                    <div class="project-image-container"><img src="./assests/images/navagation.jpg" alt="compass on map with navagation pins" /></div>
-                    
+                    <header><strong>Navagation Station GPS</strong></header>
+                        <div class="project-image-container">
+                            <img src="./assests/images/navagation.jpg" alt="compass on map with navagation pins" />
+                        </div>
                 </section>
-                  
+<!--placeholder-->                  
                 <section class="projects">
-                    <header><strong>Speech Therapy</strong></header>
-                    <div class="project-image-container"><img src="./assests/images/speech.jpg" alt="placeholder" /></div>
-                    
+                    <header><strong>Speech Therapy App</strong></header>
+                        <div class="project-image-container"><img src="./assests/images/speech.jpg" alt="placeholder" /></div>  
                 </section>
                 
             </div>
-            
+<!--Inserting nav links to move around page-->            
             <section class="project-list">
         <ul>
                 <li><a href="#home">Home</a></li>
@@ -100,37 +113,35 @@
                 <li><a href="#contact">Contact</a></li>
         </ul>
             </section>
-
-
-
+<!--id=contact to navigate to contact section and class to create class to style contact section-->
             <section id="contact" class="contact">
                 <h2>Contact Me:</h2>
             </section>
-
+<!--contact-links created to add flex wrap-->
             <section class="contact-links">
                 <ul>
-                     <li id ="git"><a href="https://github.com/bragonese1"><img src="./assests/images/githublogo.png" alt="github Logo"></a></li> 
-                      <li id="mail"><a href="mailto:bradleyragonese@icloud.com"><img src="./assests/images/emaillogo.png" alt="email Logo"></a></li> 
+                    <li id ="git"><a href="https://github.com/bragonese1">
+                        <img src="./assests/images/githublogo.png" alt="github Logo"></a>
+                    </li> 
+                    <li id="mail"><a href="mailto:bradleyragonese@icloud.com">
+                        <img src="./assests/images/emaillogo.png" alt="email Logo"></a>
+                    </li> 
                 </ul>
             </section>
-
+<!--Nav links added to navigate around the page-->
             <section class="contact-list">
-              <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#work">Work</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <ul>
+                     <li><a href="#home">Home</a></li>
+                     <li><a href="#about">About Me</a></li>
+                     <li><a href="#work">Work</a></li>
+                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </section>
-               
-            
         </main>
-
-
-
-
-
-
-
+<!--footer-->
+        <footer>
+            © 2024 Ragonese Coding Profile
+        </footer>
 
     </body>
+    </html>
