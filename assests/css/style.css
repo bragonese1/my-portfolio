@@ -39,12 +39,13 @@ main {
 border-radius: 50%;
 width:50%;
 
+
 }
 
 .banner h1{ 
   text-align: center;
     font-size: 120px;
-    width: 50%;
+    width: 100%;
     font-family: "Brush Script MT";
     color: var(--main-head);
   
@@ -238,8 +239,17 @@ width: 100%;
 width:100%;
 }
 
+.banner img{
 
+width:350px;
+height: 350px;  
 }
 
+.banner h1{
+  font-size: 50px;
+}
 
-  
+.headline ul li {
+  font-size: 15px;
+
+}
