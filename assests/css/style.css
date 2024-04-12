@@ -18,7 +18,7 @@ body {
 }
 
 main {
-    display: left;
+  display:wrap;
     flex-wrap:wrap;
     
 }
@@ -26,20 +26,25 @@ main {
 .main-header {
   display: flex;
   flex-wrap:wrap;
-  margin-bottom: 300px;
+  margin: 0 50px 300px 50px;
+  justify-content: space-between;
 }
 
 
-.main-header img{
+.banner{
+  display:flex;
+}
+
+.banner img{
 border-radius: 50%;
 width:50%;
 
 }
 
-.headline h1{ 
+.banner h1{ 
+  text-align: center;
     font-size: 120px;
-    padding: 21px;
-    margin: 200px 0px 0px 0px;
+    width: 50%;
     font-family: "Brush Script MT";
     color: var(--main-head);
   
@@ -222,7 +227,7 @@ height: 300px;
     padding: 20px;
   }
 
-@media screen and (max-width:640px){
+@media screen and (max-width:800px){
   .project-list{
 display: flex;
 flex-direction: column;
@@ -233,19 +238,6 @@ width: 100%;
 width:100%;
 }
 
-.main-header {
-  display: flex;
-  flex-wrap:wrap;
-  margin-bottom: 300px;
-}
-
-.headline h1{
-  display:inline-flex
-  font-size:30px;}
-
-.headline img{
-  width:50%;
-}
 
 }
 
